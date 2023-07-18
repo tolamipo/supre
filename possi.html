@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Navigation Bar</title>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="/posi.css">
+</head>
+<body>
+    <nav class="nav">
+        <div>
+            <img src="/OIP.jpg" alt="logo" id="img">
+            <button class="menu" onclick="show()"><i class="fa fa-bars"></i></button>
+        </div>
+        <div class="responsive toggle" id="responsive">
+            <a href="#" class="nav-link">home</a>
+            <a href="#" class="nav-link">about</a>
+
+            <div class="dropdown">
+                <a href="#" class="nav-link">services <i class="fa fa-caret-down"></i></a>
+                <div class="drop-lists">
+                    <a href="#" class="drop-list">HTML</a>
+                    <a href="#" class="drop-list">CSS</a>
+                    <a href="#" class="drop-list">javascript</a>
+                    <a href="#" class="drop-list">react js</a>
+                    <a href="#" class="drop-list">jquery</a>
+                    <a href="#" class="drop-list">bootstrap</a>
+                    <a href="#" class="drop-list">java</a>
+                </div>
+            </div>
+            <a href="#" class="nav-link">product</a>
+            <a href="#" class="nav-link">contacts</a>
+        </div>
+    </nav>
+
+    <div class="main">
+        <h1>Canon James Technology</h1>
+        <h1>  /CJTech</h1>
+    </div>
+
+    <script src="/posi.js"></script>
+</body>
+</html> 
